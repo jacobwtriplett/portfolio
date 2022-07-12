@@ -105,18 +105,18 @@ version 13.0
 		[, DISTribution(string)	/// gintreg options
 		sigma(varlist)			///
 		lambda(varlist)			///
-		p(varlist)				///
-		q(varlist)				///
-		eyx(string)				///
-		gini					///
-		aicbic					///
+		p(varlist)			///
+		q(varlist)			///
+		eyx(string)			///
+		gini				///
+		aicbic				///
 		plot(numlist)			///
 		INITial(numlist)		///
-		CONSTraints(numlist) 	///
+		CONSTraints(numlist) 		///
 		FREQuency(varlist)		///
 		DIFficult TECHnique(passthru) ITERate(passthru) 	/// ml_model options
-		nolog TRace GRADient showstep HESSian SHOWTOLerance 				///
-		TOLerance(passthru) NONRTOLerance LTOLerance(passthru)				///
+		nolog TRace GRADient showstep HESSian SHOWTOLerance 			///
+		TOLerance(passthru) NONRTOLerance LTOLerance(passthru)			///
 		NRTOLerance(passthru) robust cluster(passthru) repeat(integer 1)	///
 		NOCONStant svy vce(passthru)] 
 		

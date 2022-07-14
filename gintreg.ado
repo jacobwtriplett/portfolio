@@ -102,7 +102,7 @@ version 13.0
 	else {
 		set more off
 		syntax varlist(min=2 fv ts)  [aw fw pw iw] [if] [in] ///
-		[, DISTribution(string)	/// gintreg options
+		[, DISTribution(string)		/// gintreg options
 		sigma(varlist)			///
 		lambda(varlist)			///
 		p(varlist)			///
@@ -427,11 +427,11 @@ version 13.0
 		/* EXTRACTS ESTIMATED COEFFICIENTS for use in eyx, alt notation, aicbic, gini, plot */
 		
 		* /estimated params/	/distributions/
-		* mu sigma				normal lnormal
-		* mu sigma p lambda		snormal laplace slaplace ged sged
+		* mu sigma		normal lnormal
+		* mu sigma p lambda	snormal laplace slaplace ged sged
 		* mu sigma p q lambda	t gt st sgt
-		* delta sigma p			weibull gamma ggamma
-		* delta sigma p q		br3 br12 gb2
+		* delta sigma p		weibull gamma ggamma
+		* delta sigma p q	br3 br12 gb2
 		
 		scalar _sigma = exp(betas[1,"lnsigma:_cons"])
 		
@@ -555,8 +555,8 @@ version 13.0
 		
 		/* Opt AICBIC - CALCULATES AND REPORTS AIC AND BIC */
 		
-		* 		AIC = 2k-2loglike
-		* 		BIC = kln(n)-2loglike
+		* 	AIC = 2k-2loglike
+		* 	BIC = kln(n)-2loglike
 		
 		if "`aicbic'"!="" {
 			if "`frequency'"!="" {

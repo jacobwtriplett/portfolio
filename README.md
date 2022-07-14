@@ -1,2 +1,2 @@
 # Welcome! 
-This repository hosts a collection of projects that I have worked on in various contexts. All content is mine unless otherise stated.
+This repository hosts an assortment of projects that I have worked on in various contexts.
